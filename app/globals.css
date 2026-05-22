@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body { margin: 0; background: #071827; }
+input, textarea, select { color: #0f172a; }
+.map-grid {
+  background-image:
+    linear-gradient(rgba(23,195,178,.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(23,195,178,.12) 1px, transparent 1px),
+    radial-gradient(circle at 25% 25%, rgba(23,195,178,.22), transparent 35%),
+    radial-gradient(circle at 75% 55%, rgba(214,170,76,.12), transparent 35%);
+  background-size: 48px 48px, 48px 48px, 100% 100%, 100% 100%;
+}
+/* FishHub Clean Light Panels */
+
+body {
+  background: #0f172a;
+  color: #000000;
+}
+
+/* Main cards */
+.card,
+.panel,
+.stat-card,
+section {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 16px;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000 !important;
+  font-weight: 700;
+}
+
+/* Paragraphs and labels */
+p,
+label,
+span,
+div {
+  color: #111827;
+}
+
+/* Muted text */
+.text-slate-400,
+.text-slate-500,
+.text-slate-600,
+.muted,
+.text-muted {
+  color: #374151 !important;
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #9ca3af !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #6b7280 !important;
+}
+
+/* Navigation */
+nav,
+.sidebar {
+  background: #111827 !important;
+}
+
+/* Buttons */
+button {
+  font-weight: 600;
+}
