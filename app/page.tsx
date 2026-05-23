@@ -1,5 +1,5 @@
+"type": "module",
 'use client';
-
 import Image from 'next/image';
 import { useEffect, useMemo, useState } from 'react';
 import { Anchor, Camera, Compass, Fish, MapPin, PlayCircle, Radio, Share2, ShipWheel, Waves, Shell } from 'lucide-react';
